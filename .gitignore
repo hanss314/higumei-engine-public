@@ -1,0 +1,31 @@
+# Ren'py logging
+errors.txt
+traceback.txt
+log.txt
+
+# Ren'py compiled files
+*.rpyc
+*.rpymc
+
+# Ren'py runtime
+*.save
+game/saves
+game/cache
+
+# Python objects
+*.py[co]
+
+# Heavy assets
+game/audio/
+game/characters/sprites/
+game/images/
+
+# Scripts and translations
+translations/*
+!translations/.gitkeep
+
+scripts/*
+!scripts/.gitkeep
+
+game/scripts/*
+!game/scripts/.gitkeep
